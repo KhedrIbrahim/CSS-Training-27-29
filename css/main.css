@@ -1,0 +1,32 @@
+.parent{
+    width:800px;
+    background-color: black;
+    height: 275px;
+    margin: 100px auto auto auto;
+}
+.parent div{
+    background-color: #ccc;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    height: 50px;
+    line-height: 3;
+    
+}
+.row0{
+    width: calc((100% - 30px) / 1);
+}
+.row1{
+    width: calc((100% - 60px) / 3);
+}
+.row2{
+    width: calc((100% - 45px) / 2);
+}
+.row3{
+    width: calc((100% - 75px) / 4);
+    margin-bottom:15px;
+}
+.clear{
+    clear: both;
+}
